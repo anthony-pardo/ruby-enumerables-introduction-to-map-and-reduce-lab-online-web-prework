@@ -20,10 +20,10 @@ def map_to_double(source_array)
   arr 
 end
 
-def map_to_double(source_array)
+def map_to_square(source_array)
   arr = []
   source_array.each do |element|
-    arr << (element * 2)
+    arr << (element ** 2)
   end
   arr 
 end
