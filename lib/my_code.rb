@@ -19,3 +19,11 @@ def map_to_double(source_array)
   end
   arr 
 end
+
+def map_to_double(source_array)
+  arr = []
+  source_array.each do |element|
+    arr << (element * 2)
+  end
+  arr 
+end
